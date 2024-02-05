@@ -1,0 +1,28 @@
+// базовые подключения
+@import './vars';
+@import './mixins';
+// @import './fonts.scss';
+@import './fonts';
+@import './settings';
+
+// подключения компонентов страницы
+@import './components/header';
+@import './components/nav';
+@import './components/hero';
+@import './components/advant';
+@import './components/categories';
+@import './components/conditions';
+@import './components/contacts';
+@import './components/footer';
+@import './components/main-categories';
+@import './components/contacts-drop';
+@import './components/product-cart';
+@import './components/accordion';
+@import './components/chars';
+@import './components/breadcrumbs';
+@import './components/shop';
+@import './components/products';
+@import './components/sort';
+@import './components/card';
+@import './components/order';
+@import './components/pagination';

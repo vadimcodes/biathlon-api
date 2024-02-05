@@ -1,0 +1,22 @@
+.shop {
+  margin-bottom: 90px;
+
+  &__title {
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
+  &__content {
+    margin-bottom: 70px;
+  }
+
+  &__chars {
+    grid-column: 3 span;
+  }
+
+  &__products {
+    grid-column: 9 span;
+  }
+}

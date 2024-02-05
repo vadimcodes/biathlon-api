@@ -1,0 +1,28 @@
+.pagination {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination a {
+  background-color: #ededf1;
+  padding: 10px 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.pagination a:hover {
+  background-color: #d6d6df;
+}
+
+.pagination li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.pagination .selected a {
+  background-color: #cdcdd6;
+}

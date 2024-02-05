@@ -1,0 +1,47 @@
+.categories {
+  margin-bottom: 145px;
+
+  &__up {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  &__descr {
+    max-width: 660px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 60px;
+  }
+
+  &__list {
+  }
+
+  &__item {
+    grid-column: 3 span;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    padding: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__link {
+    font-weight: 600;
+    text-align: center;
+    color: var(--black-color);
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+    }
+  }
+}

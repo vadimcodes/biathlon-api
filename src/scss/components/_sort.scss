@@ -1,0 +1,39 @@
+.sort {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-bottom: 40px;
+  position: relative;
+
+  &__label {}
+
+  &__descr {}
+}
+
+.sort-popup {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  z-index: 1000;
+  background-color: var(--light-color);
+  padding: 20px 10px;
+  border-radius: 12px;
+
+  &__list {}
+
+  &__item {
+    padding: 12px 20px;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #e1f3fd;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 4px;
+    }
+  }
+}
