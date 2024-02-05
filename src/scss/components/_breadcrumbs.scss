@@ -1,0 +1,14 @@
+.breadcrumbs {
+  display: flex;
+  margin-bottom: 70px;
+  // .breadcrumbs__item
+
+  &__item {}
+
+  // .breadcrumbs__link
+
+  &__link {
+    color: #d3d3d3;
+    font-size: 14px;
+  }
+}

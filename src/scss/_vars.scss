@@ -1,0 +1,15 @@
+
+// colors
+:root {
+  // base
+  --font-family: "Inter", sans-serif;
+  --content-width: 1200px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // colors
+  --light-color: #fff;
+  --accent-color: #009ef7;
+  --black-color: #000;
+  --grey-color: #bebebe;
+}

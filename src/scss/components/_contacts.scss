@@ -1,0 +1,114 @@
+.contacts {
+
+  margin-bottom: 80px;
+
+  // .contacts__up
+
+  &__up {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  // .contacts__title
+
+  &__title {
+    margin-bottom: 20px;
+  }
+
+  // .contacts__descr
+
+  &__descr {
+    margin-bottom: 50px;
+  }
+
+  // .contacts__content
+
+  &__content {}
+
+  // .contacts__info
+
+  &__info {
+    grid-column: 5 span;
+  }
+
+  // .contacts__list
+
+  &__list {}
+
+  // .contacts__item
+
+  &__item {
+    margin-bottom: 30px;
+  }
+
+  // .contacts__condition
+
+  &__condition {
+
+    display: flex;
+    align-items: center;
+    color: #969696;
+    font-weight: 500;
+    margin-bottom: 12px;
+
+    & .icon {
+      margin-right: 5px;
+      fill: var(--accent-color);
+    }
+  }
+
+  // .contacts__value
+
+  &__value {
+    font-style: normal;
+    margin: 0;
+    padding-left: 29px;
+    font-weight: 500;
+    color: var(--black-color);
+  }
+
+  // .contacts__choice
+
+  &__choice {
+    padding-left: 29px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.container {}
+
+.title {}
+
+.descr {}
+
+.grid {}
+
+.list-reset {}
+
+.icon {}
+
+.contacts-choice {
+
+  // .contacts-choice__link
+
+  &__link {
+    margin-right: 24px;
+    font-weight: 500;
+    color: var(--black-color);
+  }
+
+  // .contacts-choice__whatsapp
+
+  &__whatsapp {
+    color: var(--black-color);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.maps {
+  grid-column: 7 span;
+}
